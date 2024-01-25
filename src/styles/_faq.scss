@@ -22,6 +22,10 @@
                 cursor: pointer;
                 position: relative;
 
+                @media (max-width: 768px) {
+                    padding: 24px 60px 24px 24px;
+                }
+
                 &::after { // pseudo elemento. existem dois ::before e ::after
                     content: '+';
                     position: absolute;
